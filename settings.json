@@ -1,0 +1,65 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Aura Dracula Spirit",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 16,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1.5,
+    "editor.tokenColorCustomizations": {
+        // "comments": "#a0657f",
+        "textMateRules": [
+            {
+                "scope": "punctuation",
+                "settings": {
+                    // "foreground": "#a0657f"
+                }
+            },
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#8a364d"
+                }
+            },
+            {
+                "scope": [
+                  "string.quoted.single",
+                  "string.quoted.double"
+                ],
+                "settings": {
+                    // "foreground": "#a1d382"
+                }
+            }
+        ]
+    },
+    "editor.fontFamily": "Dank Mono, Cascadia Code, Consolas, 'Courier New', monospace",
+    // "editor.letterSpacing": 0.2,
+    "git.decorations.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.colorCustomizations": {
+        // "editor.background": "#1e192e",
+        // "terminal.background": "#1e192e"
+        "focusBorder": "#00000000",
+        // "list.activeSelectionBorder": "#00000000",
+        // "list.focusOutline": "#00000000"
+        "editorIndentGuide.background1": "#ffffff07",
+        "editorIndentGuide.activeBackground1": "#ffffff16",
+        "editorCursor.foreground": "#ff4677",
+        "editor.selectionBackground": "#6d4f5c8f", // use this for aura dracula
+        "editor.wordHighlightBackground": "#68507a29", // use this for aura dracula
+        "editor.findMatchBackground": "#65557e90", // use this for aura dracula
+        "editor.findMatchHighlightBackground": "#5d427449", // use this for aura dracula
+    },
+    "vscode_custom_css.imports": [""],
+    "workbench.tree.renderIndentGuides": "none",
+    "tinymist.exportPdf": "onSave",
+    "window.newWindowDimensions": "inherit",
+    // "editor.guides.indentation": false,
+    // "editor.selectionHighlight": false,
+    // "editor.occurrencesHighlight": true,
+    // "editor.quickSuggestionsDelay": 5000,
+    "editor.inlineSuggest.enabled": false
+}
+    
