@@ -1,13 +1,13 @@
 {
     "security.workspace.trust.untrustedFiles": "open",
-    "workbench.colorTheme": "Aura Dracula Spirit",
+    "workbench.colorTheme": "Atom One Light",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 16,
     "material-icon-theme.hidesExplorerArrows": true,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 1.5,
+    "window.zoomLevel": 1,
     "editor.tokenColorCustomizations": {
         // "comments": "#a0657f",
         "textMateRules": [
@@ -47,10 +47,10 @@
         "editorIndentGuide.background1": "#ffffff07",
         "editorIndentGuide.activeBackground1": "#ffffff16",
         "editorCursor.foreground": "#ff4677",
-        "editor.selectionBackground": "#6d4f5c8f", // use this for aura dracula
-        "editor.wordHighlightBackground": "#68507a29", // use this for aura dracula
-        "editor.findMatchBackground": "#65557e90", // use this for aura dracula
-        "editor.findMatchHighlightBackground": "#5d427449", // use this for aura dracula
+        // "editor.selectionBackground": "#6d4f5c8f", // use this for aura dracula
+        // "editor.wordHighlightBackground": "#68507a29", // use this for aura dracula
+        // "editor.findMatchBackground": "#65557e90", // use this for aura dracula
+        // "editor.findMatchHighlightBackground": "#5d427449", // use this for aura dracula
     },
     "vscode_custom_css.imports": [""],
     "workbench.tree.renderIndentGuides": "none",
@@ -60,6 +60,19 @@
     // "editor.selectionHighlight": false,
     // "editor.occurrencesHighlight": true,
     // "editor.quickSuggestionsDelay": 5000,
-    "editor.inlineSuggest.enabled": false
+    "editor.inlineSuggest.enabled": false,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "github.copilot.enable": {
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true
+    },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "window.autoDetectHighContrast": false,
+    "workbench.preferredDarkColorTheme": "Aura Dracula Spirit (Synthwave)",
+    "workbench.preferredLightColorTheme": "Atom One Light",
+    "window.autoDetectColorScheme": true,
 }
     
